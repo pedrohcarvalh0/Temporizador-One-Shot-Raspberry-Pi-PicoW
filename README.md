@@ -1,4 +1,4 @@
-# Projeto: Sequência de LEDs com Raspberry Pi Pico
+# Sequência de LEDs com Raspberry Pi Pico
 
 Este projeto demonstra o uso de interrupções, temporizadores e callbacks na plataforma Raspberry Pi Pico para implementar o controle sequencial de LEDs por meio de um botão.
 
@@ -75,3 +75,5 @@ No `main()`, após a inicialização e configuração da interrupção, o progra
    cd build
    cmake ..
    make
+
+Caso não tenha a placa para testar, é possível simular com a extensão do Wokwi. Basta compilar e clicar no arquivo diagram.json
